@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54AA301E2A52A1EC00EA18EF /* IdolMasterAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AA301D2A52A1EC00EA18EF /* IdolMasterAppApp.swift */; };
+		54AA30202A52A1EC00EA18EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AA301F2A52A1EC00EA18EF /* ContentView.swift */; };
+		54AA30222A52A1EE00EA18EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54AA30212A52A1EE00EA18EF /* Assets.xcassets */; };
+		54AA30252A52A1EE00EA18EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54AA30242A52A1EE00EA18EF /* Preview Assets.xcassets */; };
+		54AA302C2A52A20A00EA18EF /* Idol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AA302B2A52A20A00EA18EF /* Idol.swift */; };
+		54AA30312A52A44200EA18EF /* GirlGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AA30302A52A44200EA18EF /* GirlGroup.swift */; };
+		54AA30332A52A45700EA18EF /* BoyGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AA30322A52A45700EA18EF /* BoyGroup.swift */; };
+		54AA30352A52A68C00EA18EF /* IdolData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AA30342A52A68C00EA18EF /* IdolData.swift */; };
+		54AA30372A52AD7200EA18EF /* GirlGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AA30362A52AD7200EA18EF /* GirlGroupView.swift */; };
+		54AA30392A52AD7B00EA18EF /* BoyGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AA30382A52AD7B00EA18EF /* BoyGroupView.swift */; };
+		54AA303D2A52AE4B00EA18EF /* girlGroupDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AA303C2A52AE4B00EA18EF /* girlGroupDetailView.swift */; };
+		6360B4472A52C3F4005C9328 /* boyGroupDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6360B4462A52C3F4005C9328 /* boyGroupDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54AA301A2A52A1EC00EA18EF /* IdolMasterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdolMasterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54AA301D2A52A1EC00EA18EF /* IdolMasterAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdolMasterAppApp.swift; sourceTree = "<group>"; };
+		54AA301F2A52A1EC00EA18EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		54AA30212A52A1EE00EA18EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54AA30242A52A1EE00EA18EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54AA302B2A52A20A00EA18EF /* Idol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Idol.swift; sourceTree = "<group>"; };
+		54AA30302A52A44200EA18EF /* GirlGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirlGroup.swift; sourceTree = "<group>"; };
+		54AA30322A52A45700EA18EF /* BoyGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoyGroup.swift; sourceTree = "<group>"; };
+		54AA30342A52A68C00EA18EF /* IdolData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdolData.swift; sourceTree = "<group>"; };
+		54AA30362A52AD7200EA18EF /* GirlGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirlGroupView.swift; sourceTree = "<group>"; };
+		54AA30382A52AD7B00EA18EF /* BoyGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoyGroupView.swift; sourceTree = "<group>"; };
+		54AA303C2A52AE4B00EA18EF /* girlGroupDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = girlGroupDetailView.swift; sourceTree = "<group>"; };
+		6360B4462A52C3F4005C9328 /* boyGroupDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boyGroupDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54AA30172A52A1EC00EA18EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54AA30112A52A1EC00EA18EF = {
+			isa = PBXGroup;
+			children = (
+				54AA301C2A52A1EC00EA18EF /* IdolMasterApp */,
+				54AA301B2A52A1EC00EA18EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54AA301B2A52A1EC00EA18EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54AA301A2A52A1EC00EA18EF /* IdolMasterApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54AA301C2A52A1EC00EA18EF /* IdolMasterApp */ = {
+			isa = PBXGroup;
+			children = (
+				54AA301D2A52A1EC00EA18EF /* IdolMasterAppApp.swift */,
+				54AA303B2A52AD8A00EA18EF /* Data */,
+				54AA302D2A52A39D00EA18EF /* Models */,
+				54AA303A2A52AD8400EA18EF /* Views */,
+				54AA30212A52A1EE00EA18EF /* Assets.xcassets */,
+				54AA30232A52A1EE00EA18EF /* Preview Content */,
+			);
+			path = IdolMasterApp;
+			sourceTree = "<group>";
+		};
+		54AA30232A52A1EE00EA18EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				54AA30242A52A1EE00EA18EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		54AA302D2A52A39D00EA18EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				54AA302B2A52A20A00EA18EF /* Idol.swift */,
+				54AA30302A52A44200EA18EF /* GirlGroup.swift */,
+				54AA30322A52A45700EA18EF /* BoyGroup.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		54AA303A2A52AD8400EA18EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54AA301F2A52A1EC00EA18EF /* ContentView.swift */,
+				54AA30362A52AD7200EA18EF /* GirlGroupView.swift */,
+				54AA30382A52AD7B00EA18EF /* BoyGroupView.swift */,
+				54AA303C2A52AE4B00EA18EF /* girlGroupDetailView.swift */,
+				6360B4462A52C3F4005C9328 /* boyGroupDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		54AA303B2A52AD8A00EA18EF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				54AA30342A52A68C00EA18EF /* IdolData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54AA30192A52A1EC00EA18EF /* IdolMasterApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54AA30282A52A1EE00EA18EF /* Build configuration list for PBXNativeTarget "IdolMasterApp" */;
+			buildPhases = (
+				54AA30162A52A1EC00EA18EF /* Sources */,
+				54AA30172A52A1EC00EA18EF /* Frameworks */,
+				54AA30182A52A1EC00EA18EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IdolMasterApp;
+			productName = IdolMasterApp;
+			productReference = 54AA301A2A52A1EC00EA18EF /* IdolMasterApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54AA30122A52A1EC00EA18EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					54AA30192A52A1EC00EA18EF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 54AA30152A52A1EC00EA18EF /* Build configuration list for PBXProject "IdolMasterApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54AA30112A52A1EC00EA18EF;
+			productRefGroup = 54AA301B2A52A1EC00EA18EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54AA30192A52A1EC00EA18EF /* IdolMasterApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54AA30182A52A1EC00EA18EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AA30252A52A1EE00EA18EF /* Preview Assets.xcassets in Resources */,
+				54AA30222A52A1EE00EA18EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54AA30162A52A1EC00EA18EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AA30202A52A1EC00EA18EF /* ContentView.swift in Sources */,
+				54AA303D2A52AE4B00EA18EF /* girlGroupDetailView.swift in Sources */,
+				6360B4472A52C3F4005C9328 /* boyGroupDetailView.swift in Sources */,
+				54AA30372A52AD7200EA18EF /* GirlGroupView.swift in Sources */,
+				54AA30352A52A68C00EA18EF /* IdolData.swift in Sources */,
+				54AA30312A52A44200EA18EF /* GirlGroup.swift in Sources */,
+				54AA30332A52A45700EA18EF /* BoyGroup.swift in Sources */,
+				54AA302C2A52A20A00EA18EF /* Idol.swift in Sources */,
+				54AA301E2A52A1EC00EA18EF /* IdolMasterAppApp.swift in Sources */,
+				54AA30392A52AD7B00EA18EF /* BoyGroupView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		54AA30262A52A1EE00EA18EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54AA30272A52A1EE00EA18EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54AA30292A52A1EE00EA18EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IdolMasterApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6444FXD5KD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.IdolMasterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54AA302A2A52A1EE00EA18EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IdolMasterApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6444FXD5KD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.IdolMasterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54AA30152A52A1EC00EA18EF /* Build configuration list for PBXProject "IdolMasterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AA30262A52A1EE00EA18EF /* Debug */,
+				54AA30272A52A1EE00EA18EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54AA30282A52A1EE00EA18EF /* Build configuration list for PBXNativeTarget "IdolMasterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AA30292A52A1EE00EA18EF /* Debug */,
+				54AA302A2A52A1EE00EA18EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54AA30122A52A1EC00EA18EF /* Project object */;
+}
