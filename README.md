@@ -1,4 +1,4 @@
-# AppSchool_Project
+# AppSchool_Projects
 
 앱스쿨 3기 iOS
 
